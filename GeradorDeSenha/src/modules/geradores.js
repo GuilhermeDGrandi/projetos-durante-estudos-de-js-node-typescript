@@ -11,7 +11,7 @@ export default function geraSenha(qnt, maiusculas, minusculas, numeros, simbolo)
     const senhaArray = []
     qnt = Number(qnt);
 
-    for(let i; i<qnt;i++){
+    for(let i=0; i<qnt;i++){
 
         maiusculas && senhaArray.push(geraMaiuscula());
         minusculas && senhaArray.push(geraMinuscula());

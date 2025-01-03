@@ -1,12 +1,12 @@
- import geraSenha from "./geradores";
+ import geraSenha from './geradores';
 
 const senhaGerada = document.querySelector('.senha-gerada')
 const qnt = document.querySelector('.qnt-caracteres')
-const chkNumeros = document.querySelector('.chk-number')
-const chkMaiuscula = document.querySelector('.chk-maiuscula')
-const chkMinuscula = document.querySelector('.chk-minuscula')
-const chkSimbol = document.querySelector('.chk-simbol')
-const btnGerarSenha = document.querySelector('.btn-gera-senha')
+const chkMaiuscula = document.querySelector('.chk-maiusculas')
+const chkMinuscula = document.querySelector('.chk-minusculas')
+const chkNumeros = document.querySelector('.chk-numeros')
+const chkSimbol = document.querySelector('.chk-simbolos')
+const btnGerarSenha = document.querySelector('.gerar-senha')
 
 export default () => {
     btnGerarSenha.addEventListener('click', () => {

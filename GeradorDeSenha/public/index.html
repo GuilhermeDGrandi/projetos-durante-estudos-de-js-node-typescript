@@ -11,20 +11,17 @@
 <body>
 
   <section class="container">
-    <h1>Gerador de senha</h1>
+    <h1>Gerador de senhas</h1>
 
-    <div class="senha-gerada"> Selecione as opções</div>
+    <div class="senha-gerada">Selecione as opções</div>
 
+    Quantidade de caracteres <input value="20" type="number" min="1" max="50" class="qnt-caracteres"><br>
+    Adicionar maiúsculas <input type="checkbox" class="chk-maiusculas" checked><br>
+    Adicionar minúsculas <input type="checkbox" class="chk-minusculas"><br>
+    Adicionar números <input type="checkbox" class="chk-numeros"><br>
+    Adicionar símbolos <input type="checkbox" class="chk-simbolos" checked><br>
+    <button class="gerar-senha">Gerar senha</button>
 
-    
-    <p>quantidade de caracteres  <input class="qnt-caracteres" type="number" min="1" max="20"></p> 
-    <p>Adicionar números <input type="checkbox" class="chk-number" checked></p>
-    <p>Adicionar letras maiúsculas <input type="checkbox" class="chk-maiuscula"></p>
-    <p>Adicionar letras minúsculas <input type="checkbox" class="chk-minuscula"></p>
-    <p>Adicionar Simbolos <input type="checkbox" class="chk-simbol"></p>
- 
-  <button class="btn-gera-senha">Gerar senha</button>
-  
   </section>
 
   <script src="./assets/js/bundle.js"></script>
